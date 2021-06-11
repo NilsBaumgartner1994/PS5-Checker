@@ -1,0 +1,38 @@
+{
+  "name": "PS5-Checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Nils Baumgartner",
+  "license": "No Licence",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.1.2",
+    "node-schedule": "^2.0.0",
+    "nsfw-api": "1.0.39",
+    "nsfw-auth-studip": "^1.0.3",
+    "path": "^0.12.7",
+    "puppeteer": "^8.0.0",
+    "sequelize": "5.21.3",
+    "sequelize-cli": "^5.5.0",
+    "sequelize-file": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
